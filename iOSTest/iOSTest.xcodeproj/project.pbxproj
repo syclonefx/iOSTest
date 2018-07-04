@@ -12,6 +12,7 @@
 		584B0E5A20EAF51800621A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B0E5820EAF51800621A0A /* Main.storyboard */; };
 		584B0E5C20EAF51900621A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584B0E5B20EAF51900621A0A /* Assets.xcassets */; };
 		584B0E5F20EAF51900621A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B0E5D20EAF51900621A0A /* LaunchScreen.storyboard */; };
+		584E520920EC535D00A65E4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584E520820EC535D00A65E4A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		584B0E5B20EAF51900621A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584B0E5E20EAF51900621A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		584B0E6020EAF51A00621A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584E520820EC535D00A65E4A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		584B0E5320EAF51800621A0A /* iOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				584E520720EC533A00A65E4A /* Utilities */,
 				584B0E6820EAF5D100621A0A /* Model */,
 				584B0E6720EAF5CA00621A0A /* View */,
 				584B0E6620EAF5AC00621A0A /* Controller */,
@@ -86,6 +89,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		584E520720EC533A00A65E4A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				584E520820EC535D00A65E4A /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				584B0E5720EAF51800621A0A /* MainVC.swift in Sources */,
 				584B0E5520EAF51800621A0A /* AppDelegate.swift in Sources */,
+				584E520920EC535D00A65E4A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

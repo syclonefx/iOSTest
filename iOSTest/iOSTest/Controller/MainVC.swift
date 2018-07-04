@@ -8,11 +8,20 @@
 
 import UIKit
 
+
 class MainVC: UIViewController {
 
+    // Outlets
+    @IBOutlet weak var versionLbl: UILabel!
+    @IBOutlet var buildVersionLbl: UILabel!
+    
+    // Variables
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        versionLbl.text = APP_VERSION
+        buildVersionLbl.text = BUILD_VERSION
     }
 
     override func didReceiveMemoryWarning() {
