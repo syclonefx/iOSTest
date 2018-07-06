@@ -24,7 +24,6 @@ struct AppDatabase {
         
         return dbQueue
     }
-    ///~/Users/syclonefx/Dropbox/Programs/SQLite DataBases/
     /// The DatabaseMigrator that defines the database schema.
     ///
     /// This migrator is exposed so that migrations can be tested.
