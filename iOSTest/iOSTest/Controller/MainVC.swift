@@ -41,7 +41,6 @@ class MainVC: UIViewController {
             print("error")
         }
         
-        
         let appModel = AppModel()
         appModel.setup()
     }
