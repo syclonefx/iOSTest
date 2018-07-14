@@ -6,3 +6,5 @@ Base Xcode app setup
 - Deployment Target: 11.4
 
 ***
+
+Added a Time class.

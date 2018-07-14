@@ -35,8 +35,6 @@ class MainVC: UIViewController {
         data.append("Eight")
         data.append("Nine")
         
-        
-        
         do {
             try dbQueue.read{ db in
                 storyboards = try Storyboard.fetchAll(db)

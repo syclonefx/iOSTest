@@ -18,6 +18,8 @@
 		5859C7DA20ED9A9400DC503B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859C7D920ED9A9400DC503B /* AppModel.swift */; };
 		5859C7DC20EDAC9400DC503B /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859C7DB20EDAC9400DC503B /* AppDatabase.swift */; };
 		5859C7DE20EDB72200DC503B /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859C7DD20EDB72200DC503B /* Storyboard.swift */; };
+		587F2D8B20F95578000CA3D5 /* TimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F2D8A20F95578000CA3D5 /* TimeVC.swift */; };
+		587F2D8D20F96481000CA3D5 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F2D8C20F96481000CA3D5 /* Time.swift */; };
 		588D0EB920F58E070098B825 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D0EB820F58E070098B825 /* CustomCell.swift */; };
 		58A223C820F6E21B003F34A6 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A223C720F6E21B003F34A6 /* SettingVC.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,8 @@
 		5859C7D920ED9A9400DC503B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		5859C7DB20EDAC9400DC503B /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		5859C7DD20EDB72200DC503B /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		587F2D8A20F95578000CA3D5 /* TimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVC.swift; sourceTree = "<group>"; };
+		587F2D8C20F96481000CA3D5 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		588D0EB820F58E070098B825 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		58A223C720F6E21B003F34A6 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 		62C23C98F931B4F9B1537282 /* Pods-iOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTest/Pods-iOSTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			children = (
 				584B0E5620EAF51800621A0A /* MainVC.swift */,
 				58A223C720F6E21B003F34A6 /* SettingVC.swift */,
+				587F2D8A20F95578000CA3D5 /* TimeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				5859C7D920ED9A9400DC503B /* AppModel.swift */,
 				5859C7DB20EDAC9400DC503B /* AppDatabase.swift */,
 				5859C7DD20EDB72200DC503B /* Storyboard.swift */,
+				587F2D8C20F96481000CA3D5 /* Time.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5859C7DC20EDAC9400DC503B /* AppDatabase.swift in Sources */,
+				587F2D8B20F95578000CA3D5 /* TimeVC.swift in Sources */,
+				587F2D8D20F96481000CA3D5 /* Time.swift in Sources */,
 				58A223C820F6E21B003F34A6 /* SettingVC.swift in Sources */,
 				584B0E5720EAF51800621A0A /* MainVC.swift in Sources */,
 				584B0E5520EAF51800621A0A /* AppDelegate.swift in Sources */,
